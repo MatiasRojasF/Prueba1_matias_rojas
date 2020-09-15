@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #e0dfdf;
+  background-color: white;
 
 }
 li {
@@ -29,14 +29,41 @@ li a {
 a {
   display: block;
   padding: 8px;
-  background-color: #dddddd;
+  background-color: white;
 }
 #br{
-  background-color: #e0dfdf;
+  background-color: white;
   width: 100%;
   height: 10px;
 }
 .caja2 img{
 width: 100%;
 height: 400px;
+}
+#title_LA{
+  margin-left: 30%;
+}
+#style_hr{
+  width: 40px;
+  color: rgb(0, 0, 0);
+}
+p{
+  text-align: center;
+}
+.bx-1,.bx-2,.bx-3{
+  width: 100%;
+  height: 300px;
+  border: 1px solid black;
+}
+.bx-1 img{
+  width: 100%;
+  height: 200px;
+}
+.bx-2 img{
+  width: 100%;
+  height: 200px;
+}
+.bx-3 img{
+  width: 100%;
+  height: 200px;
 }
