@@ -52,7 +52,7 @@ p{
 }
 .bx-1,.bx-2,.bx-3{
   width: 100%;
-  height: 300px;
+  height: 350px;
   border: 1px solid black;
 }
 .bx-1 img{
@@ -66,4 +66,34 @@ p{
 .bx-3 img{
   width: 100%;
   height: 200px;
+}
+  #titleA{
+    margin-left: 43%;
+
+}
+.caja4 img{
+width: 100%;
+height: 400px;
+}
+.caja5{
+  width: 100%;
+  height: 250px;
+  background-color: rgba(131, 125, 125, 0.74);
+}
+.caja5 h1{
+  margin-left: 30%;
+}
+.caja5 h2{
+  margin-left: 26%;
+}
+.caja5 input{
+  width: 300px;
+  margin-left: 15%;
+}
+.caja5 button{
+  width: 310px;
+  margin-left: 15%;
+}
+.caja6 i{
+  border-radius: 50%;
 }
