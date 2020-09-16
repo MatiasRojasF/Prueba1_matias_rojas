@@ -109,7 +109,34 @@ height: 400px;
 }
 #caja6 i{
   border-radius: 50%;
-  margin-left: 50%;
+  margin-left: 0px;
+}
+.caja_personal{
+    margin-top: 50px;
+    padding: 28px;
+    box-shadow: 3px 3px 10px gray;
+    border-radius: 5px;
+}
+.contacto{
+    display: flex;
+    align-items: center;
+}
+.contacto img{
+    height: 100px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p{
+    font-weight: bold;
+}
+.cargo{
+    color: gray;
+    font-weight: 400;
+    font-size: 12px;
 }
 @media screen and (min-width:520px){
 }
@@ -142,16 +169,52 @@ height: 400px;
   height: 400px;
 }
 .caja4{
+  width: 100%;
 display: flex;
 }
 
 .caja4 img{
-width: 45%;
-margin-left: -580px;
+width: 35%;
+margin-left: 75px;
 height: 400px;
 }
-.caja4 h2{
-margin-left: 500px;
+.caja4 #style_hr{
+  position: absolute;
+  margin-left: 860px;
+  margin-top: 50px;
+
 }
+.caja4 h2{
+  position: absolute;
+  left: 260px;
+
+}
+.caja4 p{
+  position: absolute;
+  width: 30%;
+  margin-top: 60px;
+  left: 700px;
+}
+.caja5 h1{
+  margin-left: 50%;
+}
+.caja5 h2{
+  margin-left: 47%;
+}
+.caja5 input{
+  margin-left: 42%;
+}
+.caja5 button{
+
+  margin-left: 42%;
+
+}
+#caja6 {
+  margin-left: 6%;
+}
+#caja6 ul{
+  float: left;
+}
+
 
 }
