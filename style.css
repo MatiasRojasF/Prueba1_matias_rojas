@@ -1,5 +1,6 @@
 body{
   font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 ul {
@@ -31,17 +32,22 @@ a {
   padding: 8px;
   background-color: white;
 }
+/*FIN MENU*/
+
 #br{
   background-color: white;
   width: 100%;
   height: 10px;
 }
+/*  ------------*/
+
 .caja2 img{
 width: 100%;
 height: 400px;
 }
+
 #title_LA{
-  margin-left: 30%;
+  margin-left: 37%;
 }
 #style_hr{
   width: 40px;
@@ -68,7 +74,7 @@ p{
   height: 200px;
 }
   #titleA{
-    margin-left: 43%;
+    margin-left: 45%;
 
 }
 .caja4 img{
@@ -78,22 +84,74 @@ height: 400px;
 .caja5{
   width: 100%;
   height: 250px;
-  background-color: rgba(131, 125, 125, 0.74);
+  background-color: #e1e6e0;
 }
 .caja5 h1{
-  margin-left: 30%;
+  margin-left: 38%;
 }
 .caja5 h2{
-  margin-left: 26%;
+  margin-left: 30%;
 }
 .caja5 input{
   width: 300px;
+  height: 25px;
   margin-left: 15%;
 }
 .caja5 button{
   width: 310px;
+  height: 30px;
+  background-color: transparent;
+  border:2px solid black;
   margin-left: 15%;
 }
-.caja6 i{
+#caja6 h3{
+  text-align: center;
+}
+#caja6 i{
   border-radius: 50%;
+  margin-left: 50%;
+}
+@media screen and (min-width:520px){
+}
+
+
+@media screen and (min-width:720px){
+  #title_LA{
+    margin-left: 45%;
+  }
+.caja3{
+  width: 100%;
+  margin-left: -70px;
+  display:flex;
+}
+.bx-1,.bx-2,.bx-3{
+  width: 300px;
+  height: 700px;
+  border: 1px solid black;
+}
+.bx-1 img{
+  width: 300px;
+  height: 400px;
+}
+.bx-2 img{
+  width: 300px;
+  height: 400px;
+}
+.bx-3 img{
+  width: 300px;
+  height: 400px;
+}
+.caja4{
+display: flex;
+}
+
+.caja4 img{
+width: 45%;
+margin-left: -580px;
+height: 400px;
+}
+.caja4 h2{
+margin-left: 500px;
+}
+
 }
